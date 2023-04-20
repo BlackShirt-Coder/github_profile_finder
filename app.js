@@ -20,7 +20,7 @@ btn.onclick = async function (e) {
             const repo = await get_repo(user);
             show_repo(repo);
             document.querySelector('.not-found').classList.add('d-none');
-            
+
 
         }
     }
